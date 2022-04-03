@@ -70,7 +70,7 @@ var4=$(nmap ${var2} | grep "open" | awk '{if(NR!=0) print $0}')
         echo -e "${Orng}$var4${Nc}\n"|pv -qL 30
         echo -e "${Cyan}Copy/paste the${Red} ip${Cyan} &${Red} port num${Cyan} to jam the network.${Nc}\n"|pv -qL 30
         sleep 1
-        pushd /data/data/com.termux/files/vlt/ > /dev/null
+        pushd /home/kali/Net-Scanner/ > /dev/null
         python2 jam.py
         elif [ $scan == $d ]
         then
