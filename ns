@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mv  ns /bin > /dev/null
+mv  ns /bin > /dev/null 1>&2
 
 #text Designs
 Bold=$(tput bold)
