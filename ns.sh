@@ -1,7 +1,5 @@
 #!/bin/bash
 
-mv  ns /bin > /dev/null 1>&2
-
 #text Designs
 Bold=$(tput bold)
 Norm=$(tput sgr0)
